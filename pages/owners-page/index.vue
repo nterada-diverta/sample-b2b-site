@@ -1,11 +1,11 @@
 <template>
     <div>
-        <h1>{{ response.details.ext_1}}</h1>
-        <p>{{ response.details.ext_2}}</p>
+      <h1>{{ response.details.ext_1}}</h1>
+      <p>{{ response.details.ext_2}}</p>
   
-        <button type="button" @click="logout">
-        ログアウト
-        </button>
+    <button type="button" @click="logout">
+    ログアウト
+    </button>
     </div>
   </template>
   
