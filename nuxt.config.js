@@ -36,7 +36,6 @@ export default {
     '@nuxtjs/axios',
   ],
   axios: {
-    baseURL: process.env.BASE_URL,
     credentials: true,
     withCredentials: true
   },
